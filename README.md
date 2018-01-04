@@ -15,3 +15,6 @@ SVCs like many classifiers like balanced class labels. We do that by randomly fl
 
 ## Rank and compare
 Generate the Ranks and compare with the ground truth using spearman's correlation.
+
+# Ranking Reliability
+At the end, it is possible to check the expected ranking reliability by conducting further simulations and checking the number of times a ranking agrees with a certain comparison. This is important to decide how far to trust the data when evaluating systems using this data.
