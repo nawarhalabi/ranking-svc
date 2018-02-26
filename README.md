@@ -1,4 +1,6 @@
 # ranking-svc
+the [notebook](https://github.com/nawarhalabi/ranking-svc/blob/master/svc.ipynb) above can be self-explanatory but feel free to continue reading 
+
 Using SVC to rank items from pairwise comparisons. Pairwise comparisons are comparisons collected from human annotators (for example) for pairs of items/objects based on a certain quality of these items (which restaurant is better for example based on food quality for example). These pairwise comparisons over a large set of items (restautants) can be used to generate rankings of these restaurants.
 
 ![picture alt](https://github.com/nawarhalabi/ranking-svc/blob/master/pairwise2ranking.png "Example of a graph representation of pairwise comparisons and ranks")
@@ -25,7 +27,7 @@ item | rank
 ...  | ...
 
 # Simulation Steps
-In this work, we conduct a simulation by randomally generating pairwise comparisons with added noise using the following steps:
+In this work, we conduct a simulation by randomally generating pairwise comparisons with added noise using the following steps. the [notebook](https://github.com/nawarhalabi/ranking-svc/blob/master/svc.ipynb) is also self-explanatory:
 
 ## Convert to one-hot
 each pair is represented as a vector with a length equal to the number of items (N). For example:
