@@ -25,6 +25,7 @@ item | rank
 ...  | ...
 
 # Simulation Steps
+In this work, we conduct a simulation by randomally generating pairwise comparisons with added noise using the following steps:
 
 ## Convert to one-hot
 each pair is represented as a vector with a length equal to the number of items (N). For example:
