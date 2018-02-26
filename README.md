@@ -29,10 +29,10 @@ In this work, we conduct a simulation by randomally generating pairwise comparis
 
 ## Convert to one-hot
 each pair is represented as a vector with a length equal to the number of items (N). For example:
-[1, 0, 0, 0, -1] is a vector representing a pair (0, 4). And the output of the pairwise comparison of this pair is [1] as we assume 0 is "better" than 4.
+`[1, 0, 0, 0, -1]` is a vector representing a pair `(0, 4)`. And the output of the pairwise comparison of this pair is `[1]` as we assume `0` is "better" than `4`.
 
 ## Add Noise
-Randomly lie about a percentage of the pairs preference i.e. convert [1] to [-1] in some of the target class labels.
+Randomly lie about a percentage of the pairs preference i.e. convert `[1]` to `[-1]` in some of the target class labels.
 
 ## Balance the class labels
 SVCs like many classifiers like balanced class labels. We do that by randomly flipping pairs and their target classes.
