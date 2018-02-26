@@ -4,7 +4,7 @@ Using SVC to rank items from pairwise comparisons. This is a demo which conducts
 For example, the following is an input to the Algorithm:
 
 item_1 | item_2 | comparisons result
--
+- | - | -
 3 | 4 | 1
 2 | 5 | -1
 2 | 5 | 1
