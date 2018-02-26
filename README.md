@@ -3,7 +3,7 @@ Using SVC to rank items from pairwise comparisons. This is a demo which conducts
 
 For example, the following is an input to the Algorithm:
 
-item_1 | item_2 | comparisons result
+item_1 | item_2 | comparisons result (1 means item_1 is better and vise versa)
 ------ | ------ | ------------------
 3      | 4      | 1
 2      | 5      | -1
@@ -17,6 +17,7 @@ item | rank
 ---- | ----
 3    | 1
 5    | 2
+1    | 3
 ...  | ...
 
 # Simulation Steps
