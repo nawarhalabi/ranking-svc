@@ -1,5 +1,9 @@
 # ranking-svc
-Using SVC to rank items from pairwise comparisons. This is a demo which conducts a simulation of ranking using SVCs. the simulation assumes a list of items `[1, 2, 3, ... , N]` which are a ground truth ranking. We observe a partial set of the total `n * ( n - 1 ) / 2` possible comparisons between the items (with some random noise), and generate the rankings using SVC and then compare with the original ranking using spearman's correlation.
+Using SVC to rank items from pairwise comparisons. Pairwise comparisons are comparisons collected from human annotators (for example) for pairs of items/objects based on a certain quality of these items (which restaurant is better for example based on food quality for example). These pairwise comparisons over a large set of items (restautants) can be used to generate rankings of these restaurants.
+
+![picture alt](https://github.com/nawarhalabi/ranking-svc/blob/master/pairwise2ranking.png "Example of a graph representation of pairwise comparisons and ranks")
+
+This is a demo which conducts a simulation of ranking from these pairwise comparisons using SVCs. the simulation assumes a list of items `[1, 2, 3, ... , N]` which are a ground truth ranking. We observe a partial set of the total `n * ( n - 1 ) / 2` possible comparisons between the items (with some random noise), and generate the rankings using SVC and then compare with the original ranking using spearman's correlation.
 
 For example, the following is an input to the Algorithm:
 
