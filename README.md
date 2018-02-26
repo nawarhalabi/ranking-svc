@@ -1,5 +1,15 @@
 # ranking-svc
-Using SVC to rank items from pairwise comparisons. This is a demp which conducts a simulation of ranking using SVCs. the simulation assumes a list of items `[1, 2, 3, ... , N]` which are a ground truth ranking. We observe a partial set of the total `n * ( n - 1 ) / 2` and generate the rankings using SVC and then compare with the original ranking using spearman's correlation.
+Using SVC to rank items from pairwise comparisons. This is a demo which conducts a simulation of ranking using SVCs. the simulation assumes a list of items `[1, 2, 3, ... , N]` which are a ground truth ranking. We observe a partial set of the total `n * ( n - 1 ) / 2` possible comparisons between the items (with some random noise), and generate the rankings using SVC and then compare with the original ranking using spearman's correlation.
+
+For example, the following is an input to the Algorithm:
+
+item_1 | item_2 | comparisons result
+-
+3 | 4 | 1
+2 | 5 | -1
+2 | 5 | 1
+5 | 9 | 1
+... | ... | ...
 
 # Simulation Steps
 
