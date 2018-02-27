@@ -1,4 +1,6 @@
 # ranking-svc
+This was presented in a PyData [meetup](https://www.meetup.com/PyData-NL/events/244481393/) in Nov 2017.
+
 the [notebook](https://github.com/nawarhalabi/ranking-svc/blob/master/svc.ipynb) above can be self-explanatory but feel free to continue reading 
 
 Using SVC to rank items from pairwise comparisons. Pairwise comparisons are comparisons collected from human annotators (for example) for pairs of items/objects based on a certain quality of these items (which restaurant is better for example based on food quality for example). These pairwise comparisons over a large set of items (restautants) can be used to generate rankings of these restaurants.
